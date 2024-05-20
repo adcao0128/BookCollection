@@ -4,7 +4,6 @@ import { CommonModule } from '@angular/common';
 import { HttpClientModule, HttpErrorResponse } from '@angular/common/http'
 import { Book } from './models/book';
 import { BookService } from './services/book.service'
-import { EditBookComponent } from './components/edit-book/edit-book.component';
 import { FormsModule, NgForm } from '@angular/forms'
 
 
@@ -15,7 +14,6 @@ import { FormsModule, NgForm } from '@angular/forms'
     RouterOutlet,
     CommonModule,
     HttpClientModule,
-    EditBookComponent,
     FormsModule
   ],
   providers: [HttpClientModule],
